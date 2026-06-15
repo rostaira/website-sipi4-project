@@ -1,0 +1,519 @@
+DEBUG - 2026-01-30 05:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 05:33:54 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 05:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:35:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 05:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 06:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 06:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 06:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 06:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 06:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 06:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 07:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:00:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:00:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:05:44 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:06:22 --> ErrorException: Undefined variable $total_peminjaman
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_peminjaman', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:06:41 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:08:57 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:08:58 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:11:41 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:11:43 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:11:44 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:11:46 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:15:48 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:15:50 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:16:45 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:16:46 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:17:16 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:17:18 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:17:19 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:17:27 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:17:29 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:17:30 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:17:31 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:18:23 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:18:24 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:18:25 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:21:25 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:21:28 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:23:23 --> ErrorException: Undefined variable $pending
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 32.
+ 1 APPPATH\Views\layout\dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-30 11:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:41:42 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-30 11:41:45 --> ErrorException: Undefined variable $total
+[Method: GET, Route: dashboard]
+in APPPATH\Views\layout\dashboard.php on line 8.
+ 1 APPPATH\Views\layout\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\SIPI4 PNC\\app\\Views\\layout\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('layout/dashboard', [], true)
+ 5 APPPATH\Controllers\Gedung.php(16): view('layout/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Gedung->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gedung))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2026-01-30 11:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

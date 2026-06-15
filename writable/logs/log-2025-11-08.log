@@ -1,0 +1,629 @@
+ERROR - 2025-11-08 01:36:39 --> mysqli_sql_exception: Can't create table `sipi4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(65): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(876): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\SIPI4 PNC\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\SIPI4 PNC\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-11-08 02:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-08 02:06:56 --> ErrorException: Could not check compatibility between Myth\Auth\Authentication\Passwords\CompositionValidator::check(string $password, ?CodeIgniter\Entity\Entity $user = null): bool and Myth\Auth\Authentication\Passwords\ValidatorInterface::check(string $password, ?CodeIgniter\Entity $user = null): bool, because class CodeIgniter\Entity is not available
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Authentication\Passwords\CompositionValidator.php on line 28.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+DEBUG - 2025-11-08 02:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-08 02:09:31 --> mysqli_sql_exception: Unknown column 'password_hash' in 'field list' in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\SIPI4 PNC\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\SIPI4 PNC\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-11-08 02:09:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:09:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$sNCUxX6hCLOFv7N3jA13Zu1M/2mNHF3a4fOa3YqVowgkZOe/WBry.\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'cd61424c8bd81dbfa1b615f6e0519df6\', \'2025-11-08 02:09:31\', \'2025-11-08 02:09:31\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$sNCUxX6hCLOFv7N3jA13Zu1M/2mNHF3a4fOa3YqVowgkZOe/WBry.\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'cd61424c8bd81dbfa1b615f6e0519df6\', \'2025-11-08 02:09:31\', \'2025-11-08 02:09:31\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 9 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:09:31 --> [Caused by] mysqli_sql_exception: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$sNCUxX6hCLOFv7N3jA13Zu1M/2mNHF3a4fOa3YqVowgkZOe/WBry.\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'cd61424c8bd81dbfa1b615f6e0519df6\', \'2025-11-08 02:09:31\', \'2025-11-08 02:09:31\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$sNCUxX6hCLOFv7N3jA13Zu1M/2mNHF3a4fOa3YqVowgkZOe/WBry.\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'cd61424c8bd81dbfa1b615f6e0519df6\', \'2025-11-08 02:09:31\', \'2025-11-08 02:09:31\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$sNCUxX6hCLOFv7N3jA13Zu1M/2mNHF3a4fOa3YqVowgkZOe/WBry.\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'cd61424c8bd81dbfa1b615f6e0519df6\', \'2025-11-08 02:09:31\', \'2025-11-08 02:09:31\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+10 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+ERROR - 2025-11-08 02:10:54 --> mysqli_sql_exception: Can't create table `sipi4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(65): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(876): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\SIPI4 PNC\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\SIPI4 PNC\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-11-08 02:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-08 02:12:34 --> ValueError: password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Password.php on line 32.
+ 1 VENDORPATH\myth\auth\src\Password.php(32): password_hash(Object(SensitiveParameterValue), 'password_hash', [...])
+ 2 VENDORPATH\myth\auth\src\Entities\User.php(63): Myth\Auth\Password::hash('cilacap05')
+ 3 SYSTEMPATH\Entity\Entity.php(450): Myth\Auth\Entities\User->setPassword('cilacap05')
+ 4 SYSTEMPATH\Entity\Entity.php(165): CodeIgniter\Entity\Entity->__set('password', 'cilacap05')
+ 5 SYSTEMPATH\Entity\Entity.php(146): CodeIgniter\Entity\Entity->fill([...])
+ 6 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Entity\Entity->__construct([...])
+ 7 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+ 8 SYSTEMPATH\Validation\Validation.php(335): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('cilacap05', null)
+ 9 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('password', 'password', 'cilacap05', [...], [...], 'password')
+10 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+11 VENDORPATH\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate([...])
+12 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-11-08 02:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-08 02:13:15 --> ValueError: password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+[Method: POST, Route: register]
+in VENDORPATH\myth\auth\src\Password.php on line 32.
+ 1 VENDORPATH\myth\auth\src\Password.php(32): password_hash(Object(SensitiveParameterValue), 'password_hash', [...])
+ 2 VENDORPATH\myth\auth\src\Entities\User.php(63): Myth\Auth\Password::hash('cilacap05')
+ 3 SYSTEMPATH\Entity\Entity.php(450): Myth\Auth\Entities\User->setPassword('cilacap05')
+ 4 SYSTEMPATH\Entity\Entity.php(165): CodeIgniter\Entity\Entity->__set('password', 'cilacap05')
+ 5 SYSTEMPATH\Entity\Entity.php(146): CodeIgniter\Entity\Entity->fill([...])
+ 6 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(66): CodeIgniter\Entity\Entity->__construct([...])
+ 7 VENDORPATH\myth\auth\src\Authentication\Passwords\ValidationRules.php(39): Myth\Auth\Authentication\Passwords\ValidationRules->buildUserFromRequest()
+ 8 SYSTEMPATH\Validation\Validation.php(335): Myth\Auth\Authentication\Passwords\ValidationRules->strong_password('cilacap05', null)
+ 9 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('password', 'password', 'cilacap05', [...], [...], 'password')
+10 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+11 VENDORPATH\myth\auth\src\Controllers\AuthController.php(164): CodeIgniter\Controller->validate([...])
+12 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+13 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+14 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-11-08 02:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-08 02:15:48 --> mysqli_sql_exception: Unknown column 'password_hash' in 'field list' in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\SIPI4 PNC\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\SIPI4 PNC\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-11-08 02:15:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:15:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$ToLbo61/icZVvzTux2fZFeNx7/CBqqrz95lb.eNqbk8eRNXd59KO6\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'a0d7021bf7135369048f7222b276023e\', \'2025-11-08 02:15:48\', \'2025-11-08 02:15:48\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$ToLbo61/icZVvzTux2fZFeNx7/CBqqrz95lb.eNqbk8eRNXd59KO6\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'a0d7021bf7135369048f7222b276023e\', \'2025-11-08 02:15:48\', \'2025-11-08 02:15:48\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 9 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:15:48 --> [Caused by] mysqli_sql_exception: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$ToLbo61/icZVvzTux2fZFeNx7/CBqqrz95lb.eNqbk8eRNXd59KO6\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'a0d7021bf7135369048f7222b276023e\', \'2025-11-08 02:15:48\', \'2025-11-08 02:15:48\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$ToLbo61/icZVvzTux2fZFeNx7/CBqqrz95lb.eNqbk8eRNXd59KO6\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'a0d7021bf7135369048f7222b276023e\', \'2025-11-08 02:15:48\', \'2025-11-08 02:15:48\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$ToLbo61/icZVvzTux2fZFeNx7/CBqqrz95lb.eNqbk8eRNXd59KO6\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'a0d7021bf7135369048f7222b276023e\', \'2025-11-08 02:15:48\', \'2025-11-08 02:15:48\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+10 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+ERROR - 2025-11-08 02:17:09 --> mysqli_sql_exception: Can't create table `sipi4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(65): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(876): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\SIPI4 PNC\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\SIPI4 PNC\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-11-08 02:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-08 02:37:45 --> mysqli_sql_exception: Can't create table `sipi4`.`auth_tokens` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `a...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `a...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `a...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `a...')
+#4 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Database\Migrations\2017-11-20-223112_create_auth_tables.php(65): CodeIgniter\Database\Forge->createTable('auth_tokens', true)
+#5 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(876): Myth\Auth\Database\Migrations\CreateAuthTables->up()
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\SIPI4 PNC\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\SIPI4 PNC\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-11-08 02:41:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-08 02:41:32 --> mysqli_sql_exception: Unknown column 'password_hash' in 'field list' in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\SIPI4 PNC\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\SIPI4 PNC\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-11-08 02:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:41:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$lVrc.6E46kNlJc8yfg1T0O1fiNDZzVD3.hTR3iM3gg.xDuL9ytyNO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'478c26e28d839e5fd3d73e93aac617b8\', \'2025-11-08 02:41:32\', \'2025-11-08 02:41:32\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$lVrc.6E46kNlJc8yfg1T0O1fiNDZzVD3.hTR3iM3gg.xDuL9ytyNO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'478c26e28d839e5fd3d73e93aac617b8\', \'2025-11-08 02:41:32\', \'2025-11-08 02:41:32\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 9 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:41:32 --> [Caused by] mysqli_sql_exception: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$lVrc.6E46kNlJc8yfg1T0O1fiNDZzVD3.hTR3iM3gg.xDuL9ytyNO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'478c26e28d839e5fd3d73e93aac617b8\', \'2025-11-08 02:41:32\', \'2025-11-08 02:41:32\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$lVrc.6E46kNlJc8yfg1T0O1fiNDZzVD3.hTR3iM3gg.xDuL9ytyNO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'478c26e28d839e5fd3d73e93aac617b8\', \'2025-11-08 02:41:32\', \'2025-11-08 02:41:32\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$lVrc.6E46kNlJc8yfg1T0O1fiNDZzVD3.hTR3iM3gg.xDuL9ytyNO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'478c26e28d839e5fd3d73e93aac617b8\', \'2025-11-08 02:41:32\', \'2025-11-08 02:41:32\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+10 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-11-08 02:41:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-08 02:42:05 --> mysqli_sql_exception: Unknown column 'password_hash' in 'field list' in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\SIPI4 PNC\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\SIPI4 PNC\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-11-08 02:42:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:42:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$LBPagtuFEw6QZV31V2wHDOTJ9qVmvtp/kbbABOs2GFfJcBehc1WHu\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'11638b6c409dc438d024d9f87880fff5\', \'2025-11-08 02:42:05\', \'2025-11-08 02:42:05\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$LBPagtuFEw6QZV31V2wHDOTJ9qVmvtp/kbbABOs2GFfJcBehc1WHu\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'11638b6c409dc438d024d9f87880fff5\', \'2025-11-08 02:42:05\', \'2025-11-08 02:42:05\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 9 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:42:05 --> [Caused by] mysqli_sql_exception: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$LBPagtuFEw6QZV31V2wHDOTJ9qVmvtp/kbbABOs2GFfJcBehc1WHu\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'11638b6c409dc438d024d9f87880fff5\', \'2025-11-08 02:42:05\', \'2025-11-08 02:42:05\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$LBPagtuFEw6QZV31V2wHDOTJ9qVmvtp/kbbABOs2GFfJcBehc1WHu\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'11638b6c409dc438d024d9f87880fff5\', \'2025-11-08 02:42:05\', \'2025-11-08 02:42:05\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$LBPagtuFEw6QZV31V2wHDOTJ9qVmvtp/kbbABOs2GFfJcBehc1WHu\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'11638b6c409dc438d024d9f87880fff5\', \'2025-11-08 02:42:05\', \'2025-11-08 02:42:05\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+10 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-11-08 02:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-08 02:43:43 --> mysqli_sql_exception: Unknown column 'password_hash' in 'field list' in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\SIPI4 PNC\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\SIPI4 PNC\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-11-08 02:43:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:43:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$dVRdWDN5439EPo8xFoVlwuNB9m805kgn30X3ZYPFxzUEaT2APNrcK\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'9888081deb9863bec25621fbcdf76411\', \'2025-11-08 02:43:43\', \'2025-11-08 02:43:43\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$dVRdWDN5439EPo8xFoVlwuNB9m805kgn30X3ZYPFxzUEaT2APNrcK\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'9888081deb9863bec25621fbcdf76411\', \'2025-11-08 02:43:43\', \'2025-11-08 02:43:43\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 9 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:43:43 --> [Caused by] mysqli_sql_exception: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$dVRdWDN5439EPo8xFoVlwuNB9m805kgn30X3ZYPFxzUEaT2APNrcK\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'9888081deb9863bec25621fbcdf76411\', \'2025-11-08 02:43:43\', \'2025-11-08 02:43:43\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$dVRdWDN5439EPo8xFoVlwuNB9m805kgn30X3ZYPFxzUEaT2APNrcK\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'9888081deb9863bec25621fbcdf76411\', \'2025-11-08 02:43:43\', \'2025-11-08 02:43:43\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$dVRdWDN5439EPo8xFoVlwuNB9m805kgn30X3ZYPFxzUEaT2APNrcK\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'9888081deb9863bec25621fbcdf76411\', \'2025-11-08 02:43:43\', \'2025-11-08 02:43:43\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+10 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-11-08 02:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-11-08 02:47:21 --> mysqli_sql_exception: Unknown column 'password_hash' in 'field list' in C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\SIPI4 PNC\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SIPI4 PNC\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SIPI4 PNC\system\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+#10 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#11 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\SIPI4 PNC\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\SIPI4 PNC\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-11-08 02:47:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+[Method: POST, Route: register]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 6 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 7 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:47:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$1PoKW66Gw0SW6jwUV6.3UuUQgGFEnr4ie1pCL32ryenvlwHBx80LO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'992c3d46019ab84fded353b7e2dea0ce\', \'2025-11-08 02:47:21\', \'2025-11-08 02:47:21\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$1PoKW66Gw0SW6jwUV6.3UuUQgGFEnr4ie1pCL32ryenvlwHBx80LO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'992c3d46019ab84fded353b7e2dea0ce\', \'2025-11-08 02:47:21\', \'2025-11-08 02:47:21\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 8 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+ 9 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+CRITICAL - 2025-11-08 02:47:21 --> [Caused by] mysqli_sql_exception: Unknown column 'password_hash' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$1PoKW66Gw0SW6jwUV6.3UuUQgGFEnr4ie1pCL32ryenvlwHBx80LO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'992c3d46019ab84fded353b7e2dea0ce\', \'2025-11-08 02:47:21\', \'2025-11-08 02:47:21\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$1PoKW66Gw0SW6jwUV6.3UuUQgGFEnr4ie1pCL32ryenvlwHBx80LO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'992c3d46019ab84fded353b7e2dea0ce\', \'2025-11-08 02:47:21\', \'2025-11-08 02:47:21\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (\'$2y$10$1PoKW66Gw0SW6jwUV6.3UuUQgGFEnr4ie1pCL32ryenvlwHBx80LO\', NULL, NULL, NULL, \'salwaroudhotul.stu@pnc.ac.id\', \'salwa\', \'992c3d46019ab84fded353b7e2dea0ce\', \'2025-11-08 02:47:21\', \'2025-11-08 02:47:21\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`password_hash`, `reset_hash`, `reset_at`, `reset_expires`, `email`, `username`, `activate_hash`, `created_at`, `updated_at`) VALUES (:password_hash:, :reset_hash:, :reset_at:, :reset_expires:, :email:, :username:, :activate_hash:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+ 9 VENDORPATH\myth\auth\src\Controllers\AuthController.php(179): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+10 SYSTEMPATH\CodeIgniter.php(933): Myth\Auth\Controllers\AuthController->attemptRegister()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-11-08 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 02:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-11-08 03:14:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "eksternal_page.php"
+[Method: GET, Route: eksternal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('eksternal_page.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('eksternal_page', [], true)
+ 3 APPPATH\Controllers\Home.php(16): view('eksternal_page')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->eksternal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-11-08 03:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-11-08 03:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,1561 @@
+DEBUG - 2025-12-04 09:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:27:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-04 09:29:11 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\xampp\htdocs\SIPI4 PNC\system\Email\Email.php:1905
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\xampp\\htdocs...', 1905)
+#1 C:\xampp\htdocs\SIPI4 PNC\system\Email\Email.php(1905): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\xampp\htdocs\SIPI4 PNC\system\Email\Email.php(1818): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp\htdocs\SIPI4 PNC\system\Email\Email.php(1703): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp\htdocs\SIPI4 PNC\system\Email\Email.php(1597): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp\htdocs\SIPI4 PNC\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(32): CodeIgniter\Email\Email->send()
+#6 C:\xampp\htdocs\SIPI4 PNC\app\Controllers\AuthController.php(218): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#7 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(933): App\Controllers\AuthController->attemptRegister()
+#8 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\SIPI4 PNC\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\SIPI4 PNC\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\SIPI4 PNC\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\SIPI4 PNC\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2025-12-04 09:29:11 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2025-12-04 09:29:11 --> 
+DEBUG - 2025-12-04 09:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 09:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:59:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 10:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:28:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:30:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:30:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Auth\register.php"
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Auth\\register.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\register', [], true)
+ 3 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\register', [...])
+ 4 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\register', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:30:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:32:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:37:59 --> ErrorException: Undefined array key "regis_internal"
+[Method: GET, Route: regis_internal]
+in APPPATH\Controllers\AuthController.php on line 244.
+ 1 APPPATH\Controllers\AuthController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regis_internal"', 'C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Controllers\\AuthController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:39:34 --> ErrorException: Undefined array key "regis_internal"
+[Method: GET, Route: regis_internal]
+in APPPATH\Controllers\AuthController.php on line 244.
+ 1 APPPATH\Controllers\AuthController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regis_internal"', 'C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Controllers\\AuthController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:39:37 --> ErrorException: Undefined array key "regis_internal"
+[Method: GET, Route: regis_internal]
+in APPPATH\Controllers\AuthController.php on line 244.
+ 1 APPPATH\Controllers\AuthController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regis_internal"', 'C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Controllers\\AuthController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:42:04 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:42:57 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:42:59 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:43:00 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:43:33 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:43:35 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:43:36 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:22 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:24 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:24 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:24 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:25 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:25 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:51 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:45:52 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:46:28 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:46:30 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:46:31 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:46:31 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:46:31 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:50:02 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:50:04 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:50:07 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 11:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:50:15 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:03 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:06 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:08 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:09 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:10 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:10 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:10 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:11 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regis_internal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:55:39 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regis_internal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regis_internal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:56:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Auth\regis_internal.php"
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Auth\\regis_internal.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regis_internal', [], true)
+ 3 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regis_internal', [...])
+ 4 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regis_internal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:56:32 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:56:55 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:57:14 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 11:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 11:59:35 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:09:44 --> ErrorException: Undefined array key "regisInternal"
+[Method: GET, Route: regisInternal]
+in APPPATH\Controllers\AuthController.php on line 244.
+ 1 APPPATH\Controllers\AuthController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regisInternal"', 'C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Controllers\\AuthController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:09:46 --> ErrorException: Undefined array key "regisInternal"
+[Method: GET, Route: regisInternal]
+in APPPATH\Controllers\AuthController.php on line 244.
+ 1 APPPATH\Controllers\AuthController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regisInternal"', 'C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Controllers\\AuthController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:10:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:10:55 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:35 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:36 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:36 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:36 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:37 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:37 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:37 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:37 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:37 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:38 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:18:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:18:43 --> CodeIgniter\Router\Exceptions\RouterException: The route for "registerInternal" cannot be found.
+[Method: GET, Route: regisInternal]
+in SYSTEMPATH\Helpers\url_helper.php on line 512.
+ 1 SYSTEMPATH\Helpers\url_helper.php(512): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('registerInternal')
+ 2 APPPATH\Views\Auth\regisInternal.php(147): url_to('registerInternal')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Views\\Auth\\regisInternal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 6 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 7 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:29:44 --> ErrorException: Undefined array key "regis_internal"
+[Method: GET, Route: registerInternal]
+in APPPATH\Controllers\AuthController.php on line 244.
+ 1 APPPATH\Controllers\AuthController.php(244): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "regis_internal"', 'C:\\xampp\\htdocs\\SIPI4 PNC\\app\\Controllers\\AuthController.php', 244)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:30:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Auth\regisInternal.php"
+[Method: GET, Route: registerInternal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Auth\\regisInternal.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 3 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 4 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:30:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Auth\regisInternal.php"
+[Method: GET, Route: registerInternal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Auth\\regisInternal.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 3 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 4 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 12:30:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "App\Views\Auth\regisInternal.php"
+[Method: GET, Route: registerInternal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Auth\\regisInternal.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('App\\Views\\Auth\\regisInternal', [], true)
+ 3 APPPATH\Controllers\AuthController.php(533): view('App\\Views\\Auth\\regisInternal', [...])
+ 4 APPPATH\Controllers\AuthController.php(244): App\Controllers\AuthController->_render('App\\Views\\Auth\\regisInternal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->registerInternal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 12:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 12:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:03:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:08:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:11:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 13:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:10:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:38:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:42:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:49:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 14:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-04 15:03:38 --> CodeIgniter\Validation\Exceptions\ValidationException: "alpha_number_space" is not a valid rule.
+[Method: POST, Route: registerInternal]
+in SYSTEMPATH\Validation\Validation.php on line 345.
+ 1 SYSTEMPATH\Validation\Validation.php(345): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('alpha_number_space')
+ 2 SYSTEMPATH\Validation\Validation.php(201): CodeIgniter\Validation\Validation->processRules('username', 'username', '240102060', [...], [...], 'username')
+ 3 SYSTEMPATH\Controller.php(138): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\AuthController.php(262): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->attemptRegisterInternal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\SIPI4 PNC\\public\\index.php')
+DEBUG - 2025-12-04 15:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:19:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:23:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 15:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 22:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-04 23:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
