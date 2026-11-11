@@ -6,7 +6,7 @@ Sistem berbasis web ini dirancang untuk mengelola dan memfasilitasi proses pemin
 
 Sistem ini mendukung 3 role pengguna dengan alur masuk (login) tersendiri:
 
-*   **Admin**: Pengelola utama sistem yang bertugas mengontrol data tempat, menyetujui/menolak pengajuan peminjaman, serta mengelola akun pengguna.
+*   **Admin**: Pengelola utama sistem yang bertugas mengontrol data tempat, serta mengelola akun pengguna.
 *   **Pengguna Internal (Mahasiswa & Satpam)**:
     *   Mengakses sistem melalui **jalur login internal**.
     *   Menggunakan akun yang **telah dibuatkan dan didaftarkan langsung oleh Admin**.
